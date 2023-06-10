@@ -1,0 +1,53 @@
+.comment_container{}
+
+.comment {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    max-width: 380px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.comment:nth-child(){
+    margin-right: 20px;
+    
+}
+
+.header,
+.user {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user_img {
+    border-radius: 50%;
+    margin-right: 16px;
+}
+
+.name {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.date{
+    font-size: 16px;
+    line-height: 19px;
+    color: #838383;
+}
+
+.text {
+    font-size: 16px;
+line-height: 20px;
+color: #838383;
+padding-left: 75px;
+margin-bottom: 20px;
+}
+
+.rating{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

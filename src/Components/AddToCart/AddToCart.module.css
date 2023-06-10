@@ -1,0 +1,19 @@
+.links{
+    display: flex;
+}
+
+.basket{
+    width: 20px;
+    height: 18px;
+    margin-right: 5px;
+}
+
+.link{
+    font-size: 18px;
+line-height: 21px;
+color: #FF8F52;
+}
+
+.link:hover{
+    text-decoration: underline;
+}
